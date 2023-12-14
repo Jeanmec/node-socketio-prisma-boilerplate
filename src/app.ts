@@ -11,6 +11,8 @@ const port = process.env.PORT || 3003;
 
 app.use(cors());
 
+app.use("/api/users", require("./routes/user.routes"));
+
 server.listen(port, () => {
   initializeSockets(server);
   console.log(`Server listening on localhost:${port}.`);
