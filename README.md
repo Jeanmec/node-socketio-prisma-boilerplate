@@ -1,4 +1,4 @@
-# Node Socket.IO Boilerplate
+# Node Socket.IO Prisma Boilerplate
 
 This project is a boilerplate for a Node.js server with Socket.IO using TypeScript.
 
